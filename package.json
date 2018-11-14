@@ -1,0 +1,14 @@
+{
+  "name": "ressemble-gcp-cloudfunctions",
+  "version": "1.0.0",
+  "description": "Open-source project about end-to-end testing as a service",
+  "main": "index.js",
+  "author": "Dimitri DERTHE",
+  "license": "Mozilla Public License Version 2.0",
+  "dependencies": {
+    "@google-cloud/storage": "^2.0.0",
+    "@types/google-cloud__storage": "^1.7.2",
+    "resemblejs": "^2.10.3",
+    "uuid": "^3.3.2"
+  }
+}

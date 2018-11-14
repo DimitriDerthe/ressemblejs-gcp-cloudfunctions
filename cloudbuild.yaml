@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/git'
+  args: ['clone', 'https://github.com/DimitriDerthe/ressemblejs-gcp-cloudfunctions.git']
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['beta', 'functions', 'deploy', 'dev-belgium-ressemblejs', '--trigger-http', '--memory=1024M', '--runtime=nodejs8', '--region=europe-west1', '--entry-point=vanalysis']
